@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/css?family=Poppins);
+@import url(http://fonts.googleapis.com/css?family=montserrat);
+
+body{
+  margin:0px;
+  width: 100%;
+  background-color: grey;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: verdana;
+}
+
+.body{
+}
+.left-menu{
+  display: inline-block;
+  position: absolute;
+  left:0px;
+  width: 25%;
+  height: 100%;
+  background-color: white;
+}
+
+.main-content{
+  display: inline-block;
+  position: absolute;
+  right:0px;
+  width: 74%;
+  height: 100%;
+  background-color: white;
+  padding: 150px;
+  background-image: url("assets/background.jpeg");
+}
+
+.profile-pic{
+  width: 250px;
+  height: 250px;
+  background-image: url("assets/profile.jpeg");
+  background-size: cover;
+  border-radius: 100%;
+  margin: 24px;
+}
+
+.main-content > h2{
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.main-content > h1 {
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.main-content>p, .main-content>h2 {
+  color: rgb(191, 191, 191);
+}
+
+.main-content>p{
+  color: rgb(153, 153, 153);
+  font-size: 18px;
+  font-weight: 500;
+
+}
+
+.main-content>*{
+  margin:auto;
+  text-align: center;
+  padding:12px;
+  font-family: poppins, sans-serif;
+}
