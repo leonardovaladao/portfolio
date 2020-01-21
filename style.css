@@ -25,7 +25,7 @@ a,a:hover{
   display: inline-block;
   position: absolute;
   left:0px;
-  width: 25%;
+  width: 22%;
   height: 100%;
   background-color: #f5f5f5;
   border-right: 1px solid #959595;
@@ -36,7 +36,7 @@ a,a:hover{
 .left-menu > h1{
   position: relative;
   font-family: poppins;
-  color: rgba(0, 0, 0);
+  color: rgba(130, 100, 100);
   font-size: 34px;
   font-weight: 900;
   letter-spacing: 1px;
@@ -55,6 +55,12 @@ a,a:hover{
   padding-top: 10px;
 }
 
+.left-menu > ul > li:hover{
+  color:black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .left-menu > .push-down > p{
   rgba(0,0,0,0.6);
   font-family: montserrat;
@@ -70,10 +76,13 @@ a,a:hover{
   display: inline-block;
   position: absolute;
   right:0px;
-  width: 74%;
+  width: 77%;
   height: 100%;
   padding: 150px;
-  background-image: url("assets/background.jpeg");
+  background-image: url("assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   overflow-y: scroll;
 }
 
@@ -82,6 +91,8 @@ a,a:hover{
   height: 225px;
   background-image: url("assets/profile.jpeg");
   background-size: cover;
+  border: 2px solid rgb(150,100,100);
+  border-spacing: 10px;
   border-radius: 100%;
   margin: 24px;
 }
@@ -89,6 +100,7 @@ a,a:hover{
 .main-content > h2{
   font-size: 24px;
   font-weight: 300;
+  color: rgb(130, 100, 100);
 }
 
 .main-content > h1 {
@@ -98,14 +110,10 @@ a,a:hover{
   color: rgba(0, 0, 0, 0.8);
 }
 
-.main-content>p, .main-content>h2 {
-  color: rgb(191, 191, 191);
-}
-
 .main-content>p{
-  color: rgb(153, 153, 153);
+  color: rgba(0, 0, 0, 0.8);
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
   font-family: montserrat;
 }
 
