@@ -3,36 +3,39 @@
 <head>
   <title>Checklist</title>
   <style>
-    .done{
-      text-decoration: line-through
+    @media only screen and (max-width: 600px) {
+      .done{
+        text-decoration: line-through
+        }
+      li:hover {
+        cursor: pointer;
       }
-    li:hover {
-      cursor: pointer;
+      body {
+        text-align: center;
+        background: linear-gradient(to right, salmon, pink);
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        width: 400px;
+        margin: 0 auto;
+      }
+      body > ul > li {
+        text-align: justify;
+        padding: 3px;
+      }
+      .delete {
+        margin-left: 6px;
+        padding: 0px;
+      }
+      .desc {
+        font-size: 11px;
+        font-family:"Lucida Console", Monaco, monospace;
+      }
+      .centre {
+        width: 75%;
+        margin: 0 auto;
+        text-align: justify;
+      }
     }
-    body {
-      text-align: center;
-      background: linear-gradient(to right, salmon, pink);
-      font-family: "Comic Sans MS", cursive, sans-serif;
-      width: 400px;
-      margin: 0 auto;
-    }
-    body > ul > li {
-      text-align: justify;
-      padding: 3px;
-    }
-    .delete {
-      margin-left: 6px;
-      padding: 0px;
-    }
-    .desc {
-      font-size: 11px;
-      font-family:"Lucida Console", Monaco, monospace;
-    }
-    .centre {
-      width: 75%;
-      margin: 0 auto;
-      text-align: justify;
-    }
+
   </style>
 </head>
 <body>
