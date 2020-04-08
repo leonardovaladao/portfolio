@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Checklist</title>
+  <style>
+    .done{
+      text-decoration: line-through
+      }
+    li:hover {
+      cursor: pointer;
+    }
+    body {
+      text-align: center;
+      background: linear-gradient(to right, salmon, pink);
+      font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+    body > ul > li {
+      text-align: justify;
+      padding: 3px;
+    }
+    .delete {
+      margin-left: 6px;
+      padding: 0px;
+    }
+    .desc {
+      font-size: 11px;
+      font-family:"Lucida Console", Monaco, monospace;
+    }
+  </style>
+</head>
+<body>
+  <h1>Checklist</h1>
+  <p >Get it done today</p>
+
+  <input id='userinput' type="text" placeholder="Enter items" />
+  <button id='enter'>Enter</button>
+  <ul>
+    <li>Notebook<button class="delete">Delete</button></li>
+    <li>Jello<button class="delete">Delete</button></li>
+    <li>Spinach<button class="delete">Delete</button></li>
+    <li>Rice<button class="delete">Delete</button></li>
+    <li>Birthday Cake<button class="delete">Delete</button></li>
+    <li>Candles<button class="delete">Delete</button></li>
+  </ul>
+  <p class="desc">Click in an item to check it. Click in the delete button to delete the item.</p>
+  <script type="text/javascript">
+    var button = document.getElementById("enter");
+    var input  = document.getElementById("userinput");
+    var ul = document.querySelector("ul");
+    var list = document.getElementsByTagName("li");
+    var deleteBtn = document.getElementsByClassName("delete");
+
+    function createListElement() {
+      var li = document.createElement("li");
+      var btn = document.createElement("button");
+      btn.className = "delete";
+      btn.textContent = "Delete";
+      li.appendChild(document.createTextNode(input.value));
+      ul.appendChild(li);
+      li.appendChild(btn);
+      input.value = "";
+      btn.addEventListener("click", clickedOnDelete);
+      li.addEventListener("click", clickedOnLi)
+    }
+
+    function addListAfterClick () {
+      if (input.value.length > 0) {
+        createListElement();
+      };
+    }
+
+    function addListAfterEnter () {
+      if (input.value.length > 0 && event.keyCode === 13) {
+        createListElement();
+      };
+    }
+
+    function clickedOnDelete() {
+      var element = event.target.parentElement;
+      element.parentNode.removeChild(element);
+    }
+
+    function clickedOnLi(event) {
+      event.target.classList.toggle("done"); // event.target: returns element that made event happen
+    }
+
+    button.addEventListener("click", addListAfterClick)
+    input.addEventListener("keypress", addListAfterEnter)
+
+    for(var i=0; i<deleteBtn.length; i++){
+      deleteBtn[i].addEventListener("click", clickedOnDelete)
+    }
+
+    for(var i=0; i<list.length; i++){
+      list[i].addEventListener("click", clickedOnLi)
+    }
+
+  </script>
+</body>
+</html>
