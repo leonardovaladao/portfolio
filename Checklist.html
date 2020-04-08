@@ -26,6 +26,12 @@
       font-size: 11px;
       font-family:"Lucida Console", Monaco, monospace;
     }
+    .centre {
+      border: 1px solid red;
+      width: 75%;
+      margin: 0 auto;
+      text-align: justify;
+    }
   </style>
 </head>
 <body>
@@ -34,14 +40,16 @@
 
   <input id='userinput' type="text" placeholder="Enter items" />
   <button id='enter'>Enter</button>
-  <ul>
-    <li>Notebook<button class="delete">Delete</button></li>
-    <li>Jello<button class="delete">Delete</button></li>
-    <li>Spinach<button class="delete">Delete</button></li>
-    <li>Rice<button class="delete">Delete</button></li>
-    <li>Birthday Cake<button class="delete">Delete</button></li>
-    <li>Candles<button class="delete">Delete</button></li>
-  </ul>
+  <div class="centre">
+    <ul>
+      <li>Notebook<button class="delete">Delete</button></li>
+      <li>Jello<button class="delete">Delete</button></li>
+      <li>Spinach<button class="delete">Delete</button></li>
+      <li>Rice<button class="delete">Delete</button></li>
+      <li>Birthday Cake<button class="delete">Delete</button></li>
+      <li>Candles<button class="delete">Delete</button></li>
+    </ul>
+  </div>
   <p class="desc">Click in an item to check it. Click in the delete button to delete the item.</p>
   <script type="text/javascript">
     var button = document.getElementById("enter");
