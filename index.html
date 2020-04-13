@@ -1,55 +1,118 @@
-<!doctype html>
+<!-- Based on https://watson-vcard.netlify.com/index-light-particles2.html -->
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
-    <!-- Imported CSS -->
-    <link rel="stylesheet" type="text/css" href="./style.css">
-    <!-- Favicon -->
-    <link rel='icon' href='assets/favicon.ico' type='image/x-icon' sizes="16x16" />
+  <!-- External CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 
+  <!-- Fonts and Icons -->
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700|Khula" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Playfair+Display:400i" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
 
-    <title>Leonardo Valadão Portfolio</title>
-  </head>
-  <body>
-      <div class="left-menu">
-        <h1>Navegação</h1>
-        <ul>
-          <li style="color:black; text-decoration: underline;"><a href="index.html">Página Inicial</a></li>
-          <li><a href="Photography.html">Projetos</a></li>
-          <li><a href="https://github.com/leonardovaladao/">Github</a></li>
-          <li>Sobre</li>
-          <li>Contato</li>
-        </ul>
-        <div class="push-down">
+  <!-- Title -->
+  <title>Leonardo Valadão - Portfolio</title>
+</head>
 
-        </div>
+<body>
+  <div class="header-mobile">
+    <a class="header-toggle"><i class="fas fa-bars"></i></a>
+    <h2>Valadão</h2>
+  </div>
+  <!-- Header Main Start -->
+  <div class="header-main" data-simplebar>
+    <div class="image-container">
+      <h2 class="header-name">Valadão</h2>
+      <img src="img/profile-img.jpg" alt="profile-pic" />
+    </div>
 
+    <!--Nav Menus-->
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#home" class="pt-link active"><span class="nav-menu-icon"><i class="lnr lnr-home"></i></span>Home </a> </li>
+        <li><a href="#about" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-user"></i></span>Sobre</a></li>
+        <li><a href="#resume" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-laptop"></i></span>GitHub</a></li>
+        <li><a href="#portfolio" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-briefcase"></i></span>Portfolio</a></li>
+        <li><a href="#contact" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-envelope"></i></span>Contato</a></li>
+      </ul>
+    </nav>
+
+    <!--Nav Footer-->
+    <div class="nav-footer">
+      <!--Social Links-->
+      <ul class="social">
+        <li><a href="#" class="active"><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-dribbble-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-behance-square"></i></a></li>
+      </ul>
+      <!--Copyright Text-->
+      <div class="copy">
+        <p>2018 &copy; Cosmos-Themes.<br>All Right Reserved.</p>
       </div>
+    </div>
 
-      <div class="main-content">
-        <div class="profile-pic"></div>
-        <h2>Olá, eu sou</h2>
-        <h1>Leonardo Valadão</h1>
-        <p>
-          Sou estudante de física na Universidade de São Paulo, e atualmente trabalho como estagiário de programação na mesma universidade.
+  </div>
+  <!-- Header Main End -->
+
+  <div class="site-main">
+
+
+    <!--Banner Section Start-->
+    <section id="home" class="banner-section pt-page">
+
+      <div id="particles-js"></div>
+
+      <div class="banner-content">
+        <!--Banner Text-->
+        <h1 class="mb-20">Leonardo <span>Valadão</span></h1>
+
+        <!--Animated Text-->
+        <p class="cd-headline clip is-full-width">
+          <span>I am a </span>
+          <span class="cd-words-wrapper">
+            <b>Web Developer</b>
+          </span>
         </p>
       </div>
 
+    </section>
+    <!--Banner Section End-->
+
+    <!--About Section Start-->
+
+    <!--About Section End-->
+
+
+  </div>
 
 
 
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+  <!-- JavaScript Section -->
+  <script type="text/javascript" src="js/particles.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+  <script src="jquery.min.js"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $(".owl-carousel").owlCarousel();
+  });
+</script>
+</body>
 </html>
