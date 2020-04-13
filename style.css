@@ -53,7 +53,7 @@ img {
   position: fixed;
   top: 0;
   height: 100%;
-  width: 200px;
+  width: 230px;
   background-color: #2a2b30;
   overflow: auto;
   left: 0;
@@ -194,13 +194,12 @@ img {
 .site-main {
   position: absolute;
   top: 0;
-  left: 200px;
+  left: 230px;
   right: 0;
   width: auto;
   height: 100%;
   -webkit-perspective: 1200px;
   perspective: 1200px;
-  overflow-y: hidden;
 }
 .site-main .page-active {
   visibility: visible;
@@ -218,6 +217,7 @@ img {
   background-size: cover;
   background-position: center;
   height: 100%;
+  overflow-y: hidden;
 }
 .banner-section:before {
   position: absolute;
@@ -302,7 +302,7 @@ img {
   font-size: 22px;
   font-weight: 700;
 }
-.about-section > .about > .signature {
+.signature {
   width: 50%;
 }
 .about-section .about .about-info ul li {
@@ -448,7 +448,7 @@ img {
   float: right;
   font-size: 38px;
   line-height: 1em;
-  color: #00A3E1;
+  color: #FF6961;
 }
 .page-heading>h2 {
   font-size: 36px;
@@ -456,7 +456,7 @@ img {
   letter-spacing: 1.5px;
   line-height: 1em;
   text-transform: capitalize;
-  color: #00A3E1;
+  color: #FF6961;
   position: relative;
   display: inline-block;
 }
@@ -482,7 +482,7 @@ img {
   margin-bottom: 13px;
 }
 span.title {
-  border-color: #00A3E1 !important;
+  border-color: #FF6961 !important;
 }
 
 .mt-30 {
@@ -491,8 +491,8 @@ span.title {
 
 .btn-main {
   border: 2px solid #222;
-  border-color:#00A3E1 !important;
-  color:#00A3E1;
+  border-color:#FF6961 !important;
+  color:#FF6961;
   padding: 10px 20px;
   text-transform: uppercase;
   background-color:transparent;
@@ -531,14 +531,14 @@ span.title {
   position: relative;
   text-transform: uppercase;
   padding: 5px 10px;
-  border-bottom: 2px solid rgba(0, 163, 225, 0.6);
+  border-bottom: 2px solid #DC453D;
 }
 .subheading h3:before, .subheading h3:after {
   position: absolute;
   content: "";
   width: 2px;
   height: 5px;
-  background-color: rgba(0, 163, 225, 0.6);
+  background-color: #DC453D;
   bottom: 0;
 }
 .subheading h3:before {
@@ -557,7 +557,7 @@ span.title {
   font-size: 50px;
   margin-bottom: 10px;
   line-height: 1em;
-  color: #00A3E1 !important;
+  color: #FF6961 !important;
 }
 
 .header-mobile {
@@ -618,7 +618,7 @@ span.title {
 
 @media screen and (max-width: 767px) {
   .header-main {
-    left: -200px;
+    left: -230px;
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -654,6 +654,9 @@ span.title {
   .site-main {
     left: 0px;
     z-index: -9;
+  }
+  .about-section{
+    margin-top: 15px;
   }
 }
 
