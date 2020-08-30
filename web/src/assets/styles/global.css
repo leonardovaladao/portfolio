@@ -1,0 +1,33 @@
+:root {
+    font-size: 60%;
+    --background: #f8f8f8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100vh;
+}
+
+body {
+    background: var(--background);
+    display: inline-block;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 700px) {
+     :root {
+        font-size: 62.5%;
+    }
+}

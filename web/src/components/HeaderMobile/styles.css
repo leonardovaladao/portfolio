@@ -1,0 +1,51 @@
+    .header-mobile {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 50px;
+        width: 100%;
+        background-color: #2a2b30;
+        z-index: 10;
+        display: none;
+        -webkit-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+    }
+    
+    .header-mobile>h2 {
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        display: inline-block;
+        color: #fff;
+        font-size: 24px;
+        text-transform: uppercase;
+        line-height: 50px;
+        white-space: nowrap;
+    }
+    
+    .header-mobile>.header-toggle {
+        font-size: 20px;
+        line-height: 50px;
+        cursor: pointer;
+        width: 50px;
+        text-align: center;
+        border-left: 1px solid #3b3c43;
+        float: right;
+    }
+    
+    .header-toggle .fa-bars {
+        color: #fff;
+    }
+    
+    @media screen and (max-width: 767px) {
+        .header-mobile {
+            display: block;
+            -webkit-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+            z-index: 999;
+        }
+    }

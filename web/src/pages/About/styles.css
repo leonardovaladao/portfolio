@@ -1,0 +1,372 @@
+.site-main {
+    position: absolute;
+    top: 0;
+    left: 220px;
+    right: 0;
+    width: auto;
+    height: 100%;
+    -webkit-perspective: 1200px;
+    perspective: 1200px;
+}
+
+.site-main .page-active {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+}
+
+.site-main .pt-page-ontop {
+    z-index: 99;
+}
+
+
+/***** About Section *****/
+
+.about-section {
+    background-color: #FBFBFB;
+    min-height: 100%;
+}
+
+.about-section .about h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.signature {
+    width: 50%;
+}
+
+.about-section .about .about-info ul li {
+    line-height: 1em;
+    margin-bottom: 13px;
+}
+
+.about-section .about .about-info ul li span.title {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+    padding-bottom: 2px;
+    color: #222;
+}
+
+.about-section .about .about-info ul li span.title:after {
+    content: ':';
+    position: absolute;
+    right: -10px;
+}
+
+.about-section .services .service-item {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.about-section .services .service-item .icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+    line-height: 1em;
+    color: #222;
+}
+
+.about-section .services .service-item h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.about-section .services .service-item p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.clients .client-logo img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    opacity: .7;
+    -webkit-transition: opacity .4s ease;
+    -o-transition: opacity .4s ease;
+    transition: opacity .4s ease;
+}
+
+.clients .client-logo img:hover {
+    opacity: 1;
+}
+
+.testimonials .testimonial-item {
+    position: relative;
+    padding: 5px;
+}
+
+.testimonials .testimonial-item .testimonial-content {
+    background-color: #e3e3e3;
+    width: 100%;
+    -webkit-border-radius: 50px 0 50px 0;
+    border-radius: 50px 0 50px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 20px;
+    font-size: 14px;
+    position: relative;
+    -webkit-filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2));
+}
+
+.testimonials .testimonial-item .testimonial-content p {
+    margin-bottom: 0;
+}
+
+.testimonials .testimonial-item .testimonial-content:before {
+    content: "\f10d";
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 50px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #555;
+}
+
+.testimonials .testimonial-item .testimonial-content:after {
+    position: absolute;
+    content: "";
+    left: 15px;
+    top: 100%;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 11px solid #e3e3e3;
+}
+
+.testimonials .testimonial-item .testimonial-meta {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.testimonials .testimonial-item .testimonial-meta img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    -webkit-border-radius: 20px 0 20px 0;
+    border-radius: 20px 0 20px 0;
+    margin-right: 10px;
+}
+
+.testimonials .testimonial-item .testimonial-meta .meta-info h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.testimonials .testimonial-item .testimonial-meta .meta-info p {
+    font-size: 14px;
+}
+
+.site-main .pt-page .section-container {
+    max-width: 1040px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.page-heading {
+    margin-bottom: 50px;
+    /*margin-top: 50px;*/
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+
+.page-heading>.icon {
+    float: right;
+    font-size: 38px;
+    line-height: 1em;
+    color: #FF6961;
+}
+
+.page-heading>h2 {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 1em;
+    text-transform: capitalize;
+    color: #FF6961;
+    position: relative;
+    display: inline-block;
+}
+
+.about-section .lnr {
+    font-family: 'Linearicons-Free';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    text-decoration: none !important;
+    list-style: none !important;
+    outline: none !important;
+}
+
+.about-info ul {
+    padding-left: 0px;
+}
+
+.about-info ul li {
+    line-height: 1em;
+    margin-bottom: 13px;
+}
+
+span.title {
+    border-color: #FF6961 !important;
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+.btn-main {
+    border: 2px solid #222;
+    border-color: #FF6961 !important;
+    color: #FF6961;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background-color: transparent;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor: pointer;
+    font-size: 14px;
+    color: #222;
+    font-weight: 500;
+    position: relative;
+    line-height: 100%;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+
+.btn-main a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.subheading {
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.subheading h3 {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: .5px;
+    position: relative;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-bottom: 2px solid #DC453D;
+}
+
+.subheading h3:before,
+.subheading h3:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 5px;
+    background-color: #DC453D;
+    bottom: 0;
+}
+
+.subheading h3:before {
+    left: 0;
+}
+
+.subheading h3:after {
+    right: 0;
+}
+
+.service-item {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.service-item .icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+    line-height: 1em;
+    color: #FF6961 !important;
+}
+
+@media screen and (max-width: 991px) {
+    .about-section .about-info {
+        margin-top: 40px;
+    }
+    .about-section .about-info ul li {
+        display: inline-block;
+        position: relative;
+        margin: 0 5px;
+        padding: 0 5px;
+    }
+    .blog-page .blog-heading {
+        margin-top: 0;
+    }
+    .about-section {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #main {
+        left: 0px;
+        -webkit-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+    }
+    #main .pt-page,
+    #main .blog-page {
+        padding-top: 50px;
+    }
+    .banner-section .banner-content h1 {
+        font-size: 50px;
+    }
+    .banner-section .banner-content p.cd-headline {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .about-section .about .signature {
+        width: 70%;
+    }
+    .resume-section ul.education,
+    .resume-section ul.experience {
+        padding: 0;
+    }
+    .resume-section ul.education span.year,
+    .resume-section ul.experience span.year {
+        left: 42px;
+    }
+    .resume-section .skills .skill-item {
+        padding: 0;
+    }
+    .portfolio-section .portfolio-filter ul {
+        border: none;
+    }
+}
