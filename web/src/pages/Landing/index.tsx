@@ -58,8 +58,16 @@ function Landing() {
                                 opacity: {
                                     value: 0.75,
                                 },
-
                             },
+                            interactivity:{
+                                detect_on: 'window',
+                                events: {
+                                    onhover: {
+                                        enable: true,
+                                        mode: 'repulse',
+                                    },
+                                }
+                            }
                         }}
                     />
                 </section>
