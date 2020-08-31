@@ -1,12 +1,12 @@
 import React from 'react';
-import './styles.css'
+import './styles.css';
 import HeaderMain from '../../components/HeaderMain';
 
 function About() {
     return (
         <div>
             <HeaderMain></HeaderMain>
-            <div className="site-main">
+            <div className="site-main-about">
 
                 <section id="about" className="about-section pt-page">
                     <div className="section-container">
@@ -17,7 +17,7 @@ function About() {
 
                         <div className="row about mb-70">
                             <div className="col-lg-8">
-                                <h3 className="mb-20">UI/UX Designer  Developer</h3>
+                                <h3 className="mb-20">AAAUI/UX Designer  Developer</h3>
                                 <p>Dolor reprehenderit aut repudiandae maiores recusandae. Consequatur dolor nisi labore commodi ipsa? Excepturi velit laboriosam at voluptatibus cupiditate est vel. Dolorem praesentium itaque fugiat placeat quas consequatur? Obcaecati natus rerum</p>
                                 <p>Consectetur consectetur nesciunt nesciunt blanditiis amet? Quod quis unde aliquid excepturi laudantium? Illo architecto aliquam velit illo magnam neque perferendis sint Incidunt eius ipsa inventore labore eos velit. Minus hic magni reiciendis necessitatibus ex Quidem officia deleniti accusamus obcaecati dolores. Porro culpa quibusdam impedit porro praesentium excepturi. Alias ab consequatur?</p>
                             </div>

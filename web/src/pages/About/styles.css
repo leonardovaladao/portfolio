@@ -1,4 +1,4 @@
-.site-main {
+.site-main-about {
     position: absolute;
     top: 0;
     left: 220px;
@@ -9,13 +9,13 @@
     perspective: 1200px;
 }
 
-.site-main .page-active {
+.site-main-about .page-active {
     visibility: visible;
     opacity: 1;
     z-index: 1;
 }
 
-.site-main .pt-page-ontop {
+.site-main-about .pt-page-ontop {
     z-index: 99;
 }
 
@@ -176,7 +176,7 @@
     font-size: 14px;
 }
 
-.site-main .pt-page .section-container {
+.site-main-about .pt-page .section-container {
     max-width: 1040px;
     width: 90%;
     margin: 0 auto;
@@ -314,59 +314,13 @@ span.title {
     color: #FF6961 !important;
 }
 
-@media screen and (max-width: 991px) {
-    .about-section .about-info {
-        margin-top: 40px;
-    }
-    .about-section .about-info ul li {
-        display: inline-block;
-        position: relative;
-        margin: 0 5px;
-        padding: 0 5px;
-    }
-    .blog-page .blog-heading {
-        margin-top: 0;
-    }
-    .about-section {
-        margin-top: 15px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    #main {
+@media (max-width: 700px) {
+    .site-main-about {
+        position: absolute;
+        top: 20px;
         left: 0px;
-        -webkit-transition: all .3s ease-in-out;
-        -o-transition: all .3s ease-in-out;
-        transition: all .3s ease-in-out;
-    }
-    #main .pt-page,
-    #main .blog-page {
-        padding-top: 50px;
-    }
-    .banner-section .banner-content h1 {
-        font-size: 50px;
-    }
-    .banner-section .banner-content p.cd-headline {
-        font-size: 22px;
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .about-section .about .signature {
-        width: 70%;
-    }
-    .resume-section ul.education,
-    .resume-section ul.experience {
-        padding: 0;
-    }
-    .resume-section ul.education span.year,
-    .resume-section ul.experience span.year {
-        left: 42px;
-    }
-    .resume-section .skills .skill-item {
-        padding: 0;
-    }
-    .portfolio-section .portfolio-filter ul {
-        border: none;
+        right: 0;
+        width: auto;
+        height: 100%;
     }
 }

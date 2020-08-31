@@ -65,10 +65,10 @@ img {
 
 /***** Main Page *****/
 
-.site-main {
+.site-main-landing {
     position: absolute;
-    top: 300;
-    left: 500px;
+    top: 0;
+    left: 220px;
     right: 0;
     width: auto;
     height: 100%;
@@ -76,13 +76,13 @@ img {
     perspective: 1200px;
 }
 
-.site-main .page-active {
+.site-main-landing .page-active {
     visibility: visible;
     opacity: 1;
     z-index: 1;
 }
 
-.site-main .pt-page-ontop {
+.site-main-landing .pt-page-ontop {
     z-index: 99;
 }
 
@@ -184,85 +184,30 @@ img {
     opacity: 0.7;
 }
 
+#particles-js {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -100;
+}
+
 
 /****** Responsive CSS *****/
 
-@media screen and (max-width: 991px) {
-    .about-section .about-info {
-        margin-top: 40px;
-    }
-    .about-section .about-info ul li {
-        display: inline-block;
-        position: relative;
-        margin: 0 5px;
-        padding: 0 5px;
-    }
-    .blog-page .blog-heading {
-        margin-top: 0;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .header-main {
-        left: -230px;
-        -webkit-transition: all .3s ease-in-out;
-        -o-transition: all .3s ease-in-out;
-        transition: all .3s ease-in-out;
-    }
-    .header-main h2 {
-        display: none !important;
-    }
-    .header-mobile {
-        display: block;
-        -webkit-transition: all .3s ease-in-out;
-        -o-transition: all .3s ease-in-out;
-        transition: all .3s ease-in-out;
-        z-index: 999;
-    }
-    .header-content.on .header-main {
+@media (max-width: 700px) {
+    .site-main-landing {
+        position: absolute;
+        top: 0px;
         left: 0px;
-    }
-    #main {
-        left: 0px;
-        -webkit-transition: all .3s ease-in-out;
-        -o-transition: all .3s ease-in-out;
-        transition: all .3s ease-in-out;
-    }
-    #main .pt-page,
-    #main .blog-page {
-        padding-top: 50px;
+        right: 0;
+        width: auto;
+        height: 100%;
+        overflow-y: hidden;
     }
     .banner-section .banner-content h1 {
-        font-size: 50px;
+        font-size: 4em;
     }
     .banner-section .banner-content p.cd-headline {
-        font-size: 22px;
-    }
-    .site-main {
-        left: -100px;
-        z-index: -9;
-    }
-    .about-section {
-        margin-top: 15px;
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .about-section .about .signature {
-        width: 70%;
-    }
-    .resume-section ul.education,
-    .resume-section ul.experience {
-        padding: 0;
-    }
-    .resume-section ul.education span.year,
-    .resume-section ul.experience span.year {
-        left: 42px;
-    }
-    .resume-section .skills .skill-item {
-        padding: 0;
-    }
-    .portfolio-section .portfolio-filter ul {
-        border: none;
+        font-size: 1.5em;
     }
 }
