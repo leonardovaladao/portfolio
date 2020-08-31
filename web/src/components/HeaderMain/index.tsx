@@ -23,6 +23,21 @@ function HeaderMain() {
                         <li><Link to="/about" className="pt-link"><span className="nav-menu-icon"><i
                             className="lnr lnr-user"></i></span>Sobre</Link></li>
 
+                        <li><Link to="/" className="pt-link"><span className="nav-menu-icon"><i
+                            className="lnr lnr-briefcase"></i></span>Portfolio</Link></li>
+
+                        <li><Link to="/" className="pt-link"><span className="nav-menu-icon"><i
+                            className="lnr lnr-laptop-phone"></i></span>Github</Link></li>
+
+                        <li><Link to="/" className="pt-link"><span className="nav-menu-icon"><i
+                            className="lnr lnr-license"></i></span>Linkedin</Link></li>
+
+                        <li><Link to="/" className="pt-link"><span className="nav-menu-icon"><i
+                            className="lnr lnr-book"></i></span>Blog</Link></li>
+
+                        <li><Link to="/" className="pt-link"><span className="nav-menu-icon"><i
+                            className="lnr lnr-envelope"></i></span>Contato</Link></li>
+
                     </ul>
                 </nav>
 
