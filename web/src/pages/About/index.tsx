@@ -17,9 +17,11 @@ function About() {
 
                         <div className="row about mb-70">
                             <div className="col-lg-8">
-                                <h3 className="mb-20">AAAUI/UX Designer  Developer</h3>
-                                <p>Dolor reprehenderit aut repudiandae maiores recusandae. Consequatur dolor nisi labore commodi ipsa? Excepturi velit laboriosam at voluptatibus cupiditate est vel. Dolorem praesentium itaque fugiat placeat quas consequatur? Obcaecati natus rerum</p>
-                                <p>Consectetur consectetur nesciunt nesciunt blanditiis amet? Quod quis unde aliquid excepturi laudantium? Illo architecto aliquam velit illo magnam neque perferendis sint Incidunt eius ipsa inventore labore eos velit. Minus hic magni reiciendis necessitatibus ex Quidem officia deleniti accusamus obcaecati dolores. Porro culpa quibusdam impedit porro praesentium excepturi. Alias ab consequatur?</p>
+                                <h3 className="mb-20">Estudante de Física em São Paulo, Brasil.</h3>
+
+                                <p>Nascido em São Paulo em 1998, Leonardo estudou toda a vida na rede pública e entrou na Universidade de São Paulo em 2017, no curso de Licenciatura em Física do Instituto de Física da USP.</p>
+                                <p>Trabalhou por dois anos em uma Iniciação Científica com o e-Disciplinas, o Moodle da USP, onde desenvolveu um website através de Wordpress por um ano, e trabalhou com análise de dados por um ano.</p>
+                                <p>Atualmente, possui uma Iniciação Científica onde desenvolve uma pesquisa sobre a história e a epistemologia do Eletromagnetismo.</p>
                             </div>
 
                             <div className="col-lg-4">
@@ -29,12 +31,8 @@ function About() {
                                         <li><span className="title">Nome</span><span className="value">Leonardo Valadão</span></li>
                                         <li><span className="title">Idade</span><span className="value">22 Anos</span></li>
                                         <li><span className="title">Cidade</span><span className="value">São Paulo, SP</span></li>
-                                        <li><span className="title">E-mail</span><span className="value">example@example.com</span></li>
-                                        <li><span className="title">Telefone</span><span className="value">(11) 99999 9999</span></li>
+                                        <li><span className="title">E-mail</span><span className="value">leonardo.m.valadao@hotmail.com</span></li>
                                     </ul>
-                                    <div className="resume-button mt-30">
-                                        <a className="btn-main" href="#">Download Resume</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>

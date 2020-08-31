@@ -1,7 +1,8 @@
 import React from 'react';
 import Profile from '../../assets/images/profile-img.jpg';
 import HeaderMobile from '../HeaderMobile';
-import './styles.css'
+import './styles.css';
+import { Link } from 'react-router-dom';
 
 function HeaderMain() {
     return (
@@ -16,13 +17,11 @@ function HeaderMain() {
 
                 <nav className="nav-menu">
                     <ul>
-                        <li><a href="index.html" className="pt-link"><span className="nav-menu-icon"><i
-                            className="lnr lnr-home"></i></span>Home </a> </li>
-                        <li><a href="about.html" className="pt-link"><span className="nav-menu-icon"><i
-                            className="lnr lnr-user"></i></span>Sobre</a></li>
+                        <li><Link to="/" className="pt-link"><span className="nav-menu-icon"><i
+                            className="lnr lnr-home"></i></span>Home </Link> </li>
 
-                        <li><a href="portfolio.html" className="pt-link"><span className="nav-menu-icon"><i
-                            className="lnr lnr-briefcase"></i></span>Portfolio</a></li>
+                        <li><Link to="/about" className="pt-link"><span className="nav-menu-icon"><i
+                            className="lnr lnr-user"></i></span>Sobre</Link></li>
 
                     </ul>
                 </nav>
