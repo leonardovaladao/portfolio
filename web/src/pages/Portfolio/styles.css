@@ -1,0 +1,242 @@
+.site-main-portfolio {
+    position: absolute;
+    top: 0;
+    left: 220px;
+    right: 0;
+    width: auto;
+    height: 100%;
+    -webkit-perspective: 1200px;
+    perspective: 1200px;
+}
+
+.site-main-portfolio .page-active {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+}
+
+.site-main-portfolio .pt-page-ontop {
+    z-index: 99;
+}
+
+
+/***** About Section *****/
+
+.about-section {
+    background-color: #FBFBFB;
+    min-height: 100%;
+}
+
+.about-section .about h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.signature {
+    width: 50%;
+}
+
+.about-section .about .about-info ul li {
+    line-height: 1em;
+    margin-bottom: 13px;
+}
+
+.about-section .about .about-info ul li span.title {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+    padding-bottom: 2px;
+    color: #222;
+}
+
+.about-section .about .about-info ul li span.title:after {
+    content: ':';
+    position: absolute;
+    right: -10px;
+}
+
+.site-main-portfolio .pt-page .section-container {
+    max-width: 1040px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.page-heading {
+    margin-bottom: 50px;
+    /*margin-top: 50px;*/
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+
+.page-heading>.icon {
+    float: right;
+    font-size: 38px;
+    line-height: 1em;
+    color: #FF6961;
+}
+
+.page-heading>h2 {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 1em;
+    text-transform: capitalize;
+    color: #FF6961;
+    position: relative;
+    display: inline-block;
+}
+
+.about-section .lnr {
+    font-family: 'Linearicons-Free';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    text-decoration: none !important;
+    list-style: none !important;
+    outline: none !important;
+}
+
+.about-info ul {
+    padding-left: 0px;
+}
+
+.about-info ul li {
+    line-height: 1em;
+    margin-bottom: 13px;
+}
+
+span.title {
+    border-color: #FF6961 !important;
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+.btn-main {
+    border: 2px solid #222;
+    border-color: #FF6961 !important;
+    color: #FF6961;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background-color: transparent;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor: pointer;
+    font-size: 14px;
+    color: #222;
+    font-weight: 500;
+    position: relative;
+    line-height: 100%;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+
+.btn-main a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.subheading {
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.subheading h3 {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: .5px;
+    position: relative;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-bottom: 2px solid #DC453D;
+}
+
+.subheading h3:before,
+.subheading h3:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 5px;
+    background-color: #DC453D;
+    bottom: 0;
+}
+
+.subheading h3:before {
+    left: 0;
+}
+
+.subheading h3:after {
+    right: 0;
+}
+
+.about-section p {
+    text-indent: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.link a {
+    color: #007bff;
+    font-size: 0.9em;
+    padding-left: 25px;
+    transition: 0.75s;
+}
+
+.link a:hover {
+    color: #000;
+}
+
+.proj-title {
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Playfair Display';
+}
+
+.project {
+    margin-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.project h2 {
+    font-size: 1.35em;
+    font-style: normal;
+}
+
+.project p {
+    margin-left: 15px;
+}
+
+.project .date {
+    text-align: end;
+    margin-right: 10%;
+    font-size: 0.85em;
+}
+
+@media (max-width: 700px) {
+    .site-main-portfolio {
+        position: absolute;
+        top: 20px;
+        left: 0px;
+        right: 0;
+        width: auto;
+        height: 100%;
+    }
+}

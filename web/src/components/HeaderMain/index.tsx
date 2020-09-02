@@ -23,19 +23,19 @@ function HeaderMain() {
                         <li><Link to="/about" className="pt-link"><span className="nav-menu-icon"><i
                             className="lnr lnr-user"></i></span>Sobre</Link></li>
 
-                        <li><Link to="/" className="pt-link"><span className="nav-menu-icon"><i
-                            className="lnr lnr-briefcase"></i></span>Portfolio</Link></li>
+                        <li><Link to="/portfolio" className="pt-link"><span className="nav-menu-icon"><i
+                            className="lnr lnr-briefcase"></i></span>Projetos</Link></li>
 
-                        <li><Link to="/" className="pt-link"><span className="nav-menu-icon"><i
+                        <li><Link to="/github" className="pt-link"><span className="nav-menu-icon"><i
                             className="lnr lnr-laptop-phone"></i></span>Github</Link></li>
 
-                        <li><Link to="/" className="pt-link"><span className="nav-menu-icon"><i
+                        <li><Link to="/linkedin" className="pt-link"><span className="nav-menu-icon"><i
                             className="lnr lnr-license"></i></span>Linkedin</Link></li>
 
-                        <li><Link to="/" className="pt-link"><span className="nav-menu-icon"><i
+                        <li><Link to="/blog" className="pt-link"><span className="nav-menu-icon"><i
                             className="lnr lnr-book"></i></span>Blog</Link></li>
 
-                        <li><Link to="/" className="pt-link"><span className="nav-menu-icon"><i
+                        <li><Link to="/contato" className="pt-link"><span className="nav-menu-icon"><i
                             className="lnr lnr-envelope"></i></span>Contato</Link></li>
 
                     </ul>
