@@ -19,8 +19,8 @@ function About() {
                             <div className="col-lg-8">
                                 <h3 className="mb-20">Estudante de Física em São Paulo, Brasil.</h3>
 
-                                <p>Nascido em São Paulo em 1998, Leonardo estudou toda a vida na rede pública e entrou na Universidade de São Paulo em 2017, no curso de Licenciatura em Física do Instituto de Física da USP.</p>
-                                <p>Trabalhou por dois anos em uma Iniciação Científica com o e-Disciplinas, o Moodle da USP, onde desenvolveu um website através de Wordpress por um ano, e trabalhou com análise de dados por um ano.</p>
+                                <p>Nascido em São Paulo em 1998, Leonardo estudou toda a vida na rede pública, fazendo colegial na rede ETEC, e entrou na Universidade de São Paulo em 2017, no curso de Licenciatura em Física do Instituto de Física da USP.</p>
+                                <p>Trabalhou por dois anos em uma Iniciação Científica com o e-Disciplinas, o Moodle da USP, onde desenvolveu um website através de Wordpress por um ano, e trabalhou com análise de dados com Python por um ano.</p>
                                 <p>Atualmente, possui uma Iniciação Científica onde desenvolve uma pesquisa sobre a história e a epistemologia do Eletromagnetismo.</p>
                             </div>
 

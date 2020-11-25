@@ -26,16 +26,19 @@ function HeaderMain() {
                         <li><Link to="/portfolio" className="pt-link"><span className="nav-menu-icon"><i
                             className="lnr lnr-briefcase"></i></span>Projetos</Link></li>
 
-                        <li><Link to="/github" className="pt-link"><span className="nav-menu-icon"><i
-                            className="lnr lnr-laptop-phone"></i></span>Github</Link></li>
+                        {/*<li><Link to="/curriculum" className="pt-link"><span className="nav-menu-icon"><i
+                            className="lnr lnr-graduation-hat"></i></span>Currículo</Link></li>*/}
 
-                        <li><Link to="/linkedin" className="pt-link"><span className="nav-menu-icon"><i
-                            className="lnr lnr-license"></i></span>Linkedin</Link></li>
+                        <li><a href="https://github.com/leonardovaladao" className="pt-link"><span className="nav-menu-icon"><i
+                            className="lnr lnr-laptop-phone"></i></span>Github</a></li>
 
-                        <li><Link to="/blog" className="pt-link"><span className="nav-menu-icon"><i
-                            className="lnr lnr-book"></i></span>Blog</Link></li>
+                        <li><a href="https://www.linkedin.com/in/leonardo-valad%C3%A3o" className="pt-link"><span className="nav-menu-icon"><i
+                            className="lnr lnr-license"></i></span>Linkedin</a></li>
 
-                        <li><Link to="/contato" className="pt-link"><span className="nav-menu-icon"><i
+                        {/*<li><Link to="/blog" className="pt-link"><span className="nav-menu-icon"><i
+                            className="lnr lnr-book"></i></span>Blog</Link></li>*/}
+
+                        <li><Link to="/contact" className="pt-link"><span className="nav-menu-icon"><i
                             className="lnr lnr-envelope"></i></span>Contato</Link></li>
 
                     </ul>

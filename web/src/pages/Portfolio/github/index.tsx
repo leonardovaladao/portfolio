@@ -1,10 +1,10 @@
 import React from 'react';
-import './styles.css';
-import HeaderMain from '../../components/HeaderMain';
-import Portitem from '../../components/Portitem';
+import '../styles.css';
+import HeaderMain from '../../../components/HeaderMain';
 import { Link } from 'react-router-dom';
+import Portitem from '../../../components/Portitem';
 
-function Portfolio() {
+function Portgit() {
     return (
         <div>
             <HeaderMain></HeaderMain>
@@ -14,20 +14,18 @@ function Portfolio() {
                     <div className="section-container">
                         <div className="page-heading">
                             <span className="icon"><i className="lnr lnr-briefcase"></i></span>
-                            <h2>Projetos</h2>
+                            <h2>Projetos de Programação</h2> 
                         </div>
 
                         <div className="row about mb-70">
-                            <ul className='link'>
-                                {/* <li><Link to='/portfolio/github'>&#8594; Clique aqui para checar meus projetos no Github</Link></li> */}
-                                <li><a href='#'>&#8594; Clique aqui para checar trabalhos acadêmicos que realizei.</a></li>
-                            </ul>
+                            
                             <div className="col-lg-8">                                
-                                <h1 className="proj-title">Projetos atuais</h1>
+                                <h1 className="proj-title">Análise de Dados e Machine Learning</h1>
+                                <h2 className='type'>Análise de Dados:</h2><hr></hr>
 
                                 <Portitem
-                                    title="A Física de Dark"
-                                    text="Neste projeto, desenvolvo em conjunto com um grupo de pesquisa da Universidade de São Paulo um material didático sobre a Física de Dark."
+                                    title="<a href='#'>Proffy</a>"
+                                    text='<a href="#">Neste projeto, desenvolvo em conjunto com um grupo de pesquisa da Universidade de São Paulo um material didático sobre a Física de Dark.</a>'
                                 />
                                 <Portitem
                                     title="Pesquisa sobre a epistemologia e história do eletromagnetismo"
@@ -60,4 +58,4 @@ function Portfolio() {
     )
 }
 
-export default Portfolio;
+export default Portgit;

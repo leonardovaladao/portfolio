@@ -1,0 +1,29 @@
+
+.proj-title {
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Playfair Display';
+}
+
+.project {
+    margin-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.project h2 {
+    font-size: 1.35em;
+    font-style: normal;
+}
+
+.project p {
+    margin-left: 15px;
+}
+
+.project .date {
+    text-align: end;
+    margin-right: 10%;
+    font-size: 0.85em;
+    margin-bottom: 2px;
+}

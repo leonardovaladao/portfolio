@@ -1,4 +1,4 @@
-.site-main-portfolio {
+.site-main-about {
     position: absolute;
     top: 0;
     left: 220px;
@@ -9,13 +9,13 @@
     perspective: 1200px;
 }
 
-.site-main-portfolio .page-active {
+.site-main-about .page-active {
     visibility: visible;
     opacity: 1;
     z-index: 1;
 }
 
-.site-main-portfolio .pt-page-ontop {
+.site-main-about .pt-page-ontop {
     z-index: 99;
 }
 
@@ -60,7 +60,7 @@
     right: -10px;
 }
 
-.site-main-portfolio .pt-page .section-container {
+.site-main-about .pt-page .section-container {
     max-width: 1040px;
     width: 90%;
     margin: 0 auto;
@@ -186,33 +186,13 @@ span.title {
 }
 
 .about-section p {
-    text-indent: 20px;
+    text-indent: 30px;
     text-align: justify;
-    text-justify: inter-word;
+    text-justify: auto;
 }
-
-.link a {
-    color: #007bff;
-    font-size: 0.9em;
-    padding-left: 25px;
-    transition: 0.75s;
-}
-
-.link a:hover {
-    color: #000;
-}
-
-.type {
-    font-size: 1.6em;
-    font-style: normal;
-    font-weight: 500;
-    padding-top: 25px;
-    padding-bottom: 0px;
-}
-
 
 @media (max-width: 700px) {
-    .site-main-portfolio {
+    .site-main-about {
         position: absolute;
         top: 20px;
         left: 0px;
